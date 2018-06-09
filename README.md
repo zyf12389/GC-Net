@@ -5,4 +5,4 @@ gc-net for stereo matching by using pytorch
 
 Files that begin with a read are for extracting data from sceneflow dataset. read_data.py is just like a dataprovider which can be processed by dataloader. 
 
-Param: Batch size in my code was setted 160 (should be should be a multiple of 32 because of the encoder-decoder process)
+Batch size in my code was set 160 because of the limitation of GPU(1080Ti) memory(must be a multiple of 32 because of the encoder-decoder process). Other parameters are basically consistent with those set in the paper.
