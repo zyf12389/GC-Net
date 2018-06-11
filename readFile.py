@@ -1,9 +1,9 @@
 import os
 import pickle
 # dir = "disparity"
-dir_driving='/unsullied/sharefs/lvyajun/isilon-data/frame_cleanpass_webp_driving/frames_cleanpass_webp'
-dir_flying='/unsullied/sharefs/lvyajun/isilon-data/frames_cleanpass_webp_flying/TRAIN'
-dir_monkk='/unsullied/sharefs/lvyajun/isilon-data/monkaa_frames_cleanpass_webp/frames_cleanpass_webp'
+dir_driving='../frame_cleanpass_webp_driving/frames_cleanpass_webp'
+dir_flying='../frames_cleanpass_webp_flying/TRAIN'
+dir_monkk='../monkaa_frames_cleanpass_webp/frames_cleanpass_webp'
 paths=[]
 for root, dirs, files in os.walk(dir_driving):
     for file in files:
