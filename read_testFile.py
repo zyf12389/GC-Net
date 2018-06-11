@@ -1,7 +1,7 @@
 import os
 import pickle
 
-dir_flying='/unsullied/sharefs/lvyajun/isilon-data/disparity_flying/TEST'
+dir_flying='../disparity_flying/TEST'
 paths=[]
 
 for root, dirs, files in os.walk(dir_flying):
