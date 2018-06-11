@@ -1,9 +1,9 @@
 import os
 import pickle
 # dir = "disparity"
-dir_driving='/unsullied/sharefs/lvyajun/isilon-data/disparity_driving'
-dir_flying='/unsullied/sharefs/lvyajun/isilon-data/disparity_flying/TRAIN'
-dir_monkk='/unsullied/sharefs/lvyajun/isilon-data/disparity_monkk/disparity'
+dir_driving='../disparity_driving'
+dir_flying='../disparity_flying/TRAIN'
+dir_monkk='../disparity_monkk/disparity'
 
 paths=[]
 paths_test=[]
